@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 986px;
+    height: 755px;
+    margin: auto;
+    padding:0 50px ;
+    background: #f5f1f1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+}
+
+h1 {
+    
+    margin: auto;
+    margin-top: 22px;
+    font-family: 'Itim';
+    font-size: 48px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.btn {
+    width: 226px;
+    height: 73px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 28px;
+    font-family: 'Itim';
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.user {
+    width: 200px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Itim';
+    font-size: 32px;
+    align-items: center;
+ 
+
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background: #5C6AE2;
+    display: block;
+    border-radius: 100%;
+    margin-right: 10px;
+
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+
+}
+
+.dark-blue {
+    background: #5C6AE2;
+}
+
+.red {
+    background: #D14E4E;
+}
+.blue {
+    background: #2FA1D2;
+}
+
+.greenish-blue {
+    background: #58D2B5;
+
+}
+.purple {
+    background: #B45CC2;
+}
+
+.green {
+    background: #80CD43;
+}
+.light-purple {
+    background: #C23E95;
+}
+.grey {
+    background: #5F7391;
+}
+.yellow {
+    background: #ECDF67;
+}
+.pink {
+    background: #D16A7D;
+}
+.voilet{
+    background: #5471BC;
+}
+.brown {
+    background: #756161;
+}
